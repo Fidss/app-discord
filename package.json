@@ -1,13 +1,17 @@
 {
   "name": "discord-afk-bot",
   "version": "1.0.0",
-  "description": "Discord Auto AFK Bot",
+  "description": "AFK Bot for Discord",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "npm install"
   },
   "dependencies": {
-    "discord.js": "^14.26.4",
-    "dotenv": "^17.4.2"
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
