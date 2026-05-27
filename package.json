@@ -1,0 +1,12 @@
+{
+  "name": "discord-afk-bot",
+  "version": "1.0.0",
+  "description": "Discord Auto AFK Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.4"
+  }
+}
